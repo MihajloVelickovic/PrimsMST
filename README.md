@@ -42,9 +42,9 @@ to a file found in ```data/output.txt```
 -```k=N*i``` for ```i = 2, 5, 10, 20, 33, 50```
 
 ### First case
-A random node is connected to every other node in the graph
+- A random node is connected to every other node in the graph
 
 ### Second case
-The nodes form a [daisy-chain](https://www.wikiwand.com/en/Daisy_chain_(electrical_engineering))
+- The nodes form a [daisy-chain](https://www.wikiwand.com/en/Daisy_chain_(electrical_engineering))
 
 
