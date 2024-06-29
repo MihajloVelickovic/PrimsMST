@@ -24,7 +24,9 @@ Prim(graph, random_node)
     return mst
 ```
 
-This repository comes with a complete undirected graph implementation
+This repository comes with a complete undirected graph implementation.
+The Fibonacci Heap found in ```lib/fibheap``` is a static library compiled for
+**nix* operating systems. For Windows, clone the linked repository, and modify the ```CMakeLists.txt``` file to compile it as a library, and replace ```libfibheap.a``` with your newly compiled ```libfibheap.lib```
 
 ## Example program
 The example program found in ```src/main.cpp``` finds the MST for two different cases of input graphs, and measures the time taken. Afterwards, it prints:
