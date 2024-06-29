@@ -25,6 +25,7 @@ Prim(graph, random_node)
 ```
 
 This repository comes with a complete undirected graph implementation.
+
 The Fibonacci Heap found in ```lib/fibheap``` is a static library compiled for
 **nix* operating systems. For Windows, clone the linked repository, and modify the ```CMakeLists.txt``` file to compile it as a library, and replace ```libfibheap.a``` with your newly compiled ```libfibheap.lib```
 
